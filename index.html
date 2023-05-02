@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mobina Shop</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            <h2>Mobina Shop</h2>
+            <i style="position: relative;" class="fa fa-shopping-cart cartIcon" aria-hidden="true">
+                <span class="content-number">0</span>
+            </i>
+        </div>
+            <ul class="main"></ul>
+    </div>
+    <div class="cart">
+        <h1 class="cartTitle">Your Cart</h1>
+        <ul class="cartItems"></ul>
+        <div class="details">
+            <p class="total-price"></p>
+            <button class="clearCart">Clear Cart</button>
+            <button class="confrimCart">Confrim</button>
+        </div>
+    </div>
+    <div class="backdrop"></div>
+    <script src="App.js" type="module"></script>
+    <!-- <li class="cartItem">
+        <div class="cartImg">
+            <img src="${cartItems.imgUrl}" />
+        </div>
+        <div class="title-price">
+            <p class="cartName">${cartItems.title}</p>
+            <p class="price">${cartItems.price}$</p>
+        </div>
+        <div class="counter">
+            <i class="fa fa-chevron-up up" aria-hidden="true" data-id="${cartItems.id}"></i>
+            <span class="count">${cartItems.quantity}</span>
+            <i class="fa fa-chevron-down down" aria-hidden="true" data-id="${cartItems.id}"></i>
+        </div>
+        <i class="fa fa-trash" aria-hidden="true" data-id="${cartItems.id}"></i>
+    </li> -->
+</body>
+</html>
